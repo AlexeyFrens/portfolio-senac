@@ -1,0 +1,294 @@
+@import 'global.css';
+
+.main-container {
+    margin: 30px;
+    padding: 20px;
+    max-width: 900px;
+    border: 3px solid var(--main-border-color);
+    border-radius: 15px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-container figure {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.header-container figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.header-container h1 {
+    font-family: "Neue Machina", cursive;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+section h2 {
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+}
+
+section h2, section ul, section > div {
+    padding: 10px;
+    background-color: var(--bg-color-sections);
+    border-radius: 8px;
+}
+
+section div:has(ul) ul {
+    padding: 0;
+    background-color: transparent;
+}
+
+.basic-information ul {
+    list-style: none;
+    font-size: .8rem;
+}
+
+.basic-information ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.basic-information ul li::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.basic-information ul li:last-child {
+    margin-bottom: 0;
+}
+
+.basic-information ul .location::before {
+    background-image: url("../images/basic-info-icons/location.svg");
+}
+
+.basic-information ul .phone::before {
+    background-image: url("../images/basic-info-icons/phone.svg");
+}
+
+.basic-information ul .email::before {
+    background-image: url("../images/basic-info-icons/email.svg");
+}
+
+.basic-information ul .github::before {
+    background-image: url("../images/basic-info-icons/github.svg");
+}
+
+.basic-information ul .linkedin::before {
+    background-image: url("../images/basic-info-icons/linkedin.svg");
+}
+
+.basic-information ul .calendar::before {
+    background-image: url("../images/basic-info-icons/calendar.svg");
+}
+
+.personal-interests ul, .skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-interests ul li, .skills ul li {
+    padding: 10px;
+    background-color: var(--bg-color-list);
+    border-radius: 10px;
+}
+
+.personal-interests ul li img, .skills ul li img {
+    width: 40px;
+    height: 40px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.skills h3 {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.skills .soft-skills ul li {
+    font-size: .8rem;
+    text-align: center;
+    border-radius: 40px;
+    width: 100%;
+}
+
+.languages-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.languages-container ul li {
+    display: inherit;
+    align-items: center;
+    list-style: none;
+    font-size: .8rem;
+}
+
+.languages-container ul li:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url("../images/check.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+}
+
+.education-container div, .portfolio-container div {
+    padding: 10px 20px;
+}
+
+.education-container div h3{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.education-container div p {
+    font-size: .8rem;
+}
+
+.education-container .linked {
+    border: 3px solid var(--main-border-color);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    transition: background-color .2s ease-in-out;
+}
+
+.education-container .linked:hover {
+    background-color: var(--bg-color-education-container);
+}
+
+.education-container .linked h3 {
+    text-decoration: underline;
+}
+
+.education-container .linked a {
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 101%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.portfolio-container div a {
+    font-size: .8rem;
+    overflow-wrap: anywhere;
+}
+
+.portfolio-container div .port-github::before {
+    background-image: url("../images/basic-info-icons/github.svg");
+}
+
+.portfolio-container div h3 {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.portfolio-container div h3::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .header-container {
+        flex-direction: row;
+        gap: 40px;
+        grid-area: header;
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas:
+            "header header"
+            "skills right"
+            "language right"
+            "education right"
+            "portfolio right"
+        ;
+        column-gap: 40px;
+    }
+
+    .skills {
+        grid-area: skills;
+    }
+
+    .languages-container {
+        grid-area: language;
+    }
+
+    .education-container {
+        grid-area: education;
+    }
+
+    .portfolio-container {
+        grid-area: portfolio;
+    }
+
+    .right-container {
+        grid-area: right;
+    }
+
+    .languages-container ul{
+        padding: 30px 30px 30px 20px;
+    }
+
+    .skills .soft-skills ul li {
+        width: max-content;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main-container {
+        margin: 40px auto;
+    }
+}
