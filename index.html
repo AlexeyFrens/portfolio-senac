@@ -34,30 +34,22 @@
                         <div class="hard-skills">
                             <h3 class="fs-6 text-center mb-3 mt-3">Habilidades profissionais:</h3>
 
-                            <ul class="list-unstyled d-flex flex-wrap gap-2 align-items-center justify-content-center">
-                                <li class="p-2"><img src="assets/images/hard-skills/html.svg" alt="Logo do HTML"></li>
-                                <li class="p-2"><img src="assets/images/hard-skills/css.svg" alt="Logo do CSS"></li>
-                                <li class="p-2"><img src="assets/images/hard-skills/javascript.svg" alt="Logo do JavaScript"></li>
-                                <li class="p-2"><img src="assets/images/hard-skills/java.svg" alt="Logo do Java"></li>
-                                <li class="p-2"><img src="assets/images/hard-skills/springboot.svg" alt="Logo do SpringBoot"></li>
-                                <li class="p-2"><img src="assets/images/hard-skills/mysql.svg" alt="Logo do MySQL"></li>
+                            <ul id="hardskills" class="list-unstyled d-flex flex-wrap gap-2 align-items-center justify-content-center">
+                                <li class="loading">
+                                    <div class="spinner-border text-success" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                         <div class="soft-skills">
                             <h3 class="fs-6 text-center mb-3">Habilidades pessoais:</h3>
 
-                            <ul class="list-unstyled d-flex flex-wrap gap-2 align-items-center justify-content-center">
-                                <li class="col-12 col-md-auto">
-                                    <div class="p-2 text-center rounded-pill">Facilidades com tarefas práticas</div>
-                                </li>
-                                <li class="col-12 col-md-auto">
-                                    <div class="p-2 text-center rounded-pill">Comprometimento com resultados</div>
-                                </li>
-                                <li class="col-12 col-md-auto">
-                                    <div class="p-2 text-center rounded-pill">Organização</div>
-                                </li>
-                                <li class="col-12 col-md-auto">
-                                    <div class="p-2 text-center rounded-pill">Trabalho em equipe</div>
+                            <ul id="softskills" class="list-unstyled d-flex flex-wrap gap-2 align-items-center justify-content-center">
+                                <li class="loading">
+                                    <div class="spinner-border text-success" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -67,34 +59,9 @@
                 <section>
                     <h2>Educação</h2>
 
-                    <div class="education-container">
-                        <div class="linked py-3 px-2 rounded-3 mb-2 position-relative">
-                            <h3 class="fs-6 mb-2 text-decoration-underline">DIO - Formação CSS Web Developer</h3>
-                            <p>Conclusão - 4 de agosto de 2025</p>
-                            <a class="position-absolute top-0 start-0 w-100 h-100 z-3" href="https://hermes.dio.me/certificates/8GOQINF1.pdf" target="_blank"></a>
-                        </div>
-                        <div class="linked py-3 px-2 rounded-3 mb-2 position-relative">
-                            <h3 class="fs-6 mb-2 text-decoration-underline">DIO - Formação JavaScript Developer</h3>
-                            <p>Conclusão - 30 de julho de 2025</p>
-                            <a class="position-absolute top-0 start-0 w-100 h-100 z-3" href="https://hermes.dio.me/certificates/ZOUV75SR.pdf" target="_blank"></a>
-                        </div>
-                        <div class="linked py-3 px-2 rounded-3 mb-2 position-relative">
-                            <h3 class="fs-6 mb-2 text-decoration-underline">DIO - Formação HTML Web Developer</h3>
-                            <p>Conclusão - 22 de junho de 2025</p>
-                            <a class="position-absolute top-0 start-0 w-100 h-100 z-3" href="https://hermes.dio.me/certificates/LIN65JB1.pdf" target="_blank"></a>
-                        </div>
-                        <div class="linked py-3 px-2 rounded-3 mb-2 position-relative">
-                            <h3 class="fs-6 mb-2 text-decoration-underline">Java COMPLETO Programação Orientada a Objetos + Projetos</h3>
-                            <p>Conclusão - 8 de janeiro de 2025</p>
-                            <a class="position-absolute top-0 start-0 w-100 h-100 z-3" href="https://www.udemy.com/certificate/UC-722bb737-077d-4eff-876e-77a475a2f6f3/" target="_blank"></a>
-                        </div>
-                        <div class="py-3 px-2">
-                            <h3 class="fs-6 mb-2">Senac São Paulo - Análise e Desenvolvimento de Sistemas</h3>
-                            <p>julho de 2024 - dezembro de 2026</p>
-                        </div>
-                        <div class="py-3 px-2">
-                            <h3 class="fs-6 mb-2">Senac São Paulo - Ensino Médio Técnico Integrado, TI</h3>
-                            <p>janeiro de 2021 - dezembro de 2023</p>
+                    <div class="education-container" id="educations">
+                        <div class="loading spinner-border text-success" role="status">
+                            <span class="visually-hidden">Loading...</span>
                         </div>
                     </div>
                 </section>
@@ -102,18 +69,9 @@
                 <section>
                     <h2>Portfolio</h2>
 
-                    <div class="portfolio-container d-flex flex-column gap-3">
-                        <div>
-                            <h3 class="port-github d-flex align-items-center fs-6 mb-1">Pokedex</h3>
-                            <a class="text-break text-light" href="https://github.com/AlexeyFrens/js-developer-pokedex" target="_blank">https://github.com/AlexeyFrens/js-developer-pokedex</a>
-                        </div>
-                        <div>
-                            <h3 class="port-github d-flex align-items-center fs-6 mb-1">Jogo Tanque Minado</h3>
-                            <a class="text-break text-light" href="https://github.com/AlexeyFrens/sistema-tanque-minado" target="_blank">https://github.com/AlexeyFrens/sistema-tanque-minado</a>
-                        </div>
-                        <div>
-                            <h3 class="port-github d-flex align-items-center fs-6 mb-1">Discord Responsivo</h3>
-                            <a class="text-break text-light" href="https://github.com/AlexeyFrens/discord-responsivo" target="_blank">https://github.com/AlexeyFrens/discord-responsivo</a>
+                    <div class="portfolio-container d-flex flex-column gap-3" id="portfolio">
+                        <div class="loading spinner-border text-success" role="status">
+                            <span class="visually-hidden">Loading...</span>
                         </div>
                     </div>
                 </section>
@@ -123,36 +81,36 @@
                     <section class="basic-information">
                         <h2>Informações Pessoais</h2>
 
-                        <ul class="list-unstyled">
-                            <li class="calendar d-flex align-items-center mb-2">20/10/2005</li>
-                            <li class="location d-flex align-items-center mb-2">São Paulo - SP</li>
-                            <li class="phone d-flex align-items-center mb-2"><a class="text-light" href="tel:(11) 95934-6426">(11) 95934-6426</a></li>
-                            <li class="email d-flex align-items-center mb-2"><a class="text-light" href="mailto:joaocontatos56@gmail.com">joaocontatos56@gmail.com</a></li>
-                            <li class="github d-flex align-items-center mb-2"><a class="text-light" href="https://github.com/AlexeyFrens" target="_blank">Github</a></li>
-                            <li class="linkedin d-flex align-items-center"><a class="text-light" href="https://www.linkedin.com/in/jo%C3%A3o-cl%C3%A1udio-dos-santos-souza-98a212208/" target="_blank">Linkedin</a></li>
+                        <ul class="list-unstyled" id="basic-information">
+                            <li class="loading">
+                                <div class="spinner-border text-success" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </li>
                         </ul>
                     </section>
 
                     <section class="languages-container">
                         <h2>Idiomas</h2>
 
-                        <ul class="d-flex flex-wrap gap-3 list-unstyled">
-                            <li class="d-flex align-items-center">Português - Nativo</li>
-                            <li class="d-flex align-items-center">Inglês - Básico</li>
-                            <li class="d-flex align-items-center">Espanhol - Básico</li>
+                        <ul class="d-flex flex-wrap gap-3 list-unstyled" id="languages">
+                            <li class="loading">
+                                <div class="spinner-border text-success" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </li>
                         </ul>
                     </section>
 
                     <section class="personal-interests">
                         <h2>Interesses Pessoais</h2>
 
-                        <ul class="list-unstyled d-flex flex-wrap gap-2 align-items-center justify-content-center">
-                            <li class="p-2"><img src="assets/images/personal-interests/aws.svg" alt="Logo da AWS"></li>
-                            <li class="p-2"><img src="assets/images/personal-interests/azure.svg" alt="Logo da Azure"></li>
-                            <li class="p-2"><img src="assets/images/personal-interests/docker.svg" alt="Logo do Docker"></li>
-                            <li class="p-2"><img src="assets/images/personal-interests/flutter.svg" alt="Logo do Flutter"></li>
-                            <li class="p-2"><img src="assets/images/personal-interests/golang.svg" alt="Logo do GoLang"></li>
-                            <li class="p-2"><img src="assets/images/personal-interests/google-cloud.svg" alt="Logo da Google Cloud"></li>
+                        <ul id="interests" class="list-unstyled d-flex flex-wrap gap-2 align-items-center justify-content-center">
+                            <li class="loading">
+                                <div class="spinner-border text-success" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </li>
                         </ul>
                     </section>
                 </div>
@@ -161,5 +119,7 @@
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
