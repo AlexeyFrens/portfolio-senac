@@ -38,7 +38,7 @@
     "Inglês - Básico",
     "Espanhol - Básico"
   ],
-  "education": [
+  "educations": [
     {
       "name": "DIO - Formação CSS Web Developer",
       "period": "Conclusão - 4 de agosto de 2025",
@@ -71,17 +71,17 @@
   ],
   "portfolio": [
     {
-      "nome": "Pokedex",
+      "name": "Pokedex",
       "link": "https://github.com/AlexeyFrens/js-developer-pokedex",
       "isGithub": true
     },
     {
-      "nome": "Jogo Tanque Minado",
+      "name": "Jogo Tanque Minado",
       "link": "https://github.com/AlexeyFrens/sistema-tanque-minado",
       "isGithub": true
     },
     {
-      "nome": "Discord Responsivo",
+      "name": "Discord Responsivo",
       "link": "https://github.com/AlexeyFrens/discord-responsivo",
       "isGithub": true
     }
@@ -112,24 +112,12 @@
       "alt": "Logo da Google Cloud"
     }
   ],
-  "personalInformation": [
-    {
-      "birthday": "20/10/2005"
-    },
-    {
-      "location": "São Paulo - SP"
-    },
-    {
-      "phone": "(11) 95934-6426"
-    },
-    {
-      "email": "joaocontatos56@gmail.com"
-    },
-    {
-      "githubLink": "https://github.com/AlexeyFrens"
-    },
-    {
-      "linkedinLink": "https://www.linkedin.com/in/joao-claudio-dos-santos-souza/"
-    }
-  ]
+  "personalInformation": {
+    "birthday": "20/10/2005",
+    "location": "São Paulo - SP",
+    "phone": "(11) 95934-6426",
+    "email": "joaocontatos56@gmail.com",
+    "githubLink": "https://github.com/AlexeyFrens",
+    "linkedinLink": "https://www.linkedin.com/in/joao-claudio-dos-santos-souza/"
+  }
 }
