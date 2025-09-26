@@ -1,0 +1,135 @@
+{
+  "skills": {
+    "hardskills": [
+      {
+        "logo": "https://raw.githubusercontent.com/AlexeyFrens/portfolio-senac/refs/heads/main/assets/images/hard-skills/html.svg",
+        "alt": "Logo do HTML"
+      },
+      {
+        "logo": "https://raw.githubusercontent.com/AlexeyFrens/portfolio-senac/refs/heads/main/assets/images/hard-skills/css.svg",
+        "alt": "Logo do CSS"
+      },
+      {
+        "logo": "https://raw.githubusercontent.com/AlexeyFrens/portfolio-senac/refs/heads/main/assets/images/hard-skills/javascript.svg",
+        "alt": "Logo do JavaScript"
+      },
+      {
+        "logo": "https://raw.githubusercontent.com/AlexeyFrens/portfolio-senac/refs/heads/main/assets/images/hard-skills/java.svg",
+        "alt": "Logo do Java"
+      },
+      {
+        "logo": "https://raw.githubusercontent.com/AlexeyFrens/portfolio-senac/refs/heads/main/assets/images/hard-skills/springboot.svg",
+        "alt": "Logo do SpringBoot"
+      },
+      {
+        "logo": "https://raw.githubusercontent.com/AlexeyFrens/portfolio-senac/refs/heads/main/assets/images/hard-skills/mysql.svg",
+        "alt": "Logo do MySQL"
+      }
+    ],
+    "softskills": [
+      "Facilidades com tarefas práticas",
+      "Comprometimento com resultados",
+      "Organização",
+      "Trabalho em equipe"
+    ]
+  },
+  "languages": [
+    "Português - Nativo",
+    "Inglês - Básico",
+    "Espanhol - Básico"
+  ],
+  "education": [
+    {
+      "name": "DIO - Formação CSS Web Developer",
+      "period": "Conclusão - 4 de agosto de 2025",
+      "link": "https://hermes.dio.me/certificates/8GOQINF1.pdf"
+    },
+    {
+      "name": "DIO - Formação JavaScript Developer",
+      "period": "Conclusão - 30 de julho de 2025",
+      "link": "https://hermes.dio.me/certificates/ZOUV75SR.pdf"
+    },
+    {
+      "name": "DIO - Formação HTML Web Developer",
+      "period": "Conclusão - 22 de junho de 2025",
+      "link": "https://hermes.dio.me/certificates/LIN65JB1.pdf"
+    },
+    {
+      "name": "Java Completo Programação Orientada a Objetos + Projetos",
+      "period": "Conclusão - 8 de janeiro de 2025",
+      "link": "https://www.udemy.com/certificate/UC-722bb737-077d-4eff-876e-77a475a2f6f3/"
+    },
+    {
+      "name": "Senac São Paulo - Análise e Desenvolvimento de Sistemas",
+      "period": "julho de 2024 - dezembro de 2026",
+      "link": ""
+    },
+    {
+      "name": "Senac São Paulo - Ensino Médio Técnico Integrado, TI",
+      "period": "janeiro de 2021 - dezembro de 2023"
+    }
+  ],
+  "portfolio": [
+    {
+      "nome": "Pokedex",
+      "link": "https://github.com/AlexeyFrens/js-developer-pokedex",
+      "isGithub": true
+    },
+    {
+      "nome": "Jogo Tanque Minado",
+      "link": "https://github.com/AlexeyFrens/sistema-tanque-minado",
+      "isGithub": true
+    },
+    {
+      "nome": "Discord Responsivo",
+      "link": "https://github.com/AlexeyFrens/discord-responsivo",
+      "isGithub": true
+    }
+  ],
+  "personalInterests": [
+    {
+      "logo": "https://raw.githubusercontent.com/AlexeyFrens/portfolio-senac/refs/heads/main/assets/images/personal-interests/aws.svg",
+      "alt": "Logo da AWS"
+    },
+    {
+      "logo": "https://raw.githubusercontent.com/AlexeyFrens/portfolio-senac/refs/heads/main/assets/images/personal-interests/azure.svg",
+      "alt": "Logo da Azure"
+    },
+    {
+      "logo": "https://raw.githubusercontent.com/AlexeyFrens/portfolio-senac/refs/heads/main/assets/images/personal-interests/docker.svg",
+      "alt": "Logo do Docker"
+    },
+    {
+      "logo": "https://raw.githubusercontent.com/AlexeyFrens/portfolio-senac/refs/heads/main/assets/images/personal-interests/flutter.svg",
+      "alt": "Logo do Flutter"
+    },
+    {
+      "logo": "https://raw.githubusercontent.com/AlexeyFrens/portfolio-senac/refs/heads/main/assets/images/personal-interests/golang.svg",
+      "alt": "Logo do GoLang"
+    },
+    {
+      "logo": "https://raw.githubusercontent.com/AlexeyFrens/portfolio-senac/refs/heads/main/assets/images/personal-interests/google-cloud.svg",
+      "alt": "Logo da Google Cloud"
+    }
+  ],
+  "personalInformation": [
+    {
+      "birthday": "20/10/2005"
+    },
+    {
+      "location": "São Paulo - SP"
+    },
+    {
+      "phone": "(11) 95934-6426"
+    },
+    {
+      "email": "joaocontatos56@gmail.com"
+    },
+    {
+      "githubLink": "https://github.com/AlexeyFrens"
+    },
+    {
+      "linkedinLink": "https://www.linkedin.com/in/joao-claudio-dos-santos-souza/"
+    }
+  ]
+}
